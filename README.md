@@ -5,5 +5,4 @@ This is the **systematic survey** of the **Foundation Model-driven Video Anomaly
 
 ## 📄 More Information
 
-- Dataset and evaluation details: [datasets.md](./datasets.md)  
 - References and citation list: [reference.md](./reference.md)
