@@ -93,24 +93,47 @@
 
 #### 1.2.1 Semantic Prompt Engineering
 
+🗓️ **2024**
+
+- 📄 [MDFL](https://ieeexplore.ieee.org/document/10657732):Incorporating abnormal-aware prompts for dynamic feature-semantic fusion, 📰 `CVPR` [code](https://github.com/Junxi-Chen/PE-MIL)
+
+- 📄 [TPWNG](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Text_Prompt_with_Normality_Guidance_for_Weakly_Supervised_Video_Anomaly_CVPR_2024_paper.html):Establishing bidirectional semantic constraints via normality guidance for suppressing alignment fluctuations, 📰 `CVPR`
+  
+- 📄 [Fed-WSVAD](https://ojs.aaai.org/index.php/AAAI/article/view/35398):Fusing global-local features via a text prompt generator for adaptive semantic focus adjustment, 📰 `AAAI` [code](https://github.com/wbfwonderful/Fed-WSVAD)
+
+- 📄 [STPrompt](https://dl.acm.org/doi/abs/10.1145/3664647.3681442):A dual-stream spatio-temporal prompt framework for region-level anomaly localization and background suppression, 📰 `ACM MM`
+
 🗓️ **2025**
 
-- 📄 [PromptVAD](https://ieeexplore.ieee.org/document/11222791):Utilizing learnable abnormal prompts, 📰 `TNNLS`
+- 📄 [PromptVAD](https://ieeexplore.ieee.org/document/11222791):Utilizing learnable abnormal prompts via learnable prompts for narrowing semantic gaps, 📰 `TNNLS`
 
-🗓️ **2020**
+- 📄 [MISSIONGNN](https://openaccess.thecvf.com/content/WACV2025/html/Yun_MissionGNN_Hierarchical_Multimodal_GNN-Based_Weakly_Supervised_Video_Anomaly_Recognition_with_WACV_2025_paper.html):, 📰 `WACV` [code](https://github.com/c0510gy/MissionGNN)
 
-- 📄 [FSCN](https://www.sciencedirect.com/science/article/abs/pii/S0031320320303186):Fast sparse coding networks for anomaly detection in videos, 📰 `PR` [code](https://github.com/Roc-Ng/FSCN_AnomalyDetection)
+- 📄 [LEC-VAD](https://openreview.net/forum?id=JaNKGPkDpw):A memory-bank prototype learning mechanism to enrich sparse anomaly semantic labels, 📰 `ICML`
+
+#### 1.2.2 Latent Space Optimization
+
+🗓️ **2024**
+
+- 📄 [AnomalyCLIP](https://www.sciencedirect.com/science/article/pii/S1077314224002443):Normal subspace identification for establishing explicit decision boundaries in anomaly detection, 📰 `CVIU` [code](https://lucazanella.github.io/AnomalyCLIP/)
+- 📄 [TSTD](https://dl.acm.org/doi/10.1145/3664647.3680934):Explicit foreground-background separation for masking complex background interference, 📰 `ACM MM` [code](https://github.com/shengyangsun/TDSD)
+
+🗓️ **2026**
+
+- 📄 [DSANet](https://arxiv.org/abs/2511.10334):A multi-grained disentangled alignment network for explicitly isolating normal and abnormal patterns, 📰 `AAAI` [code](https://github.com/lessiYin/DSANet)
+
+- 📄 [RefineVAD](https://arxiv.org/abs/2511.13204):Motion-aware temporal recalibration for preventing anomalous semantic dilution in global features, 📰 `AAAI`
   
-  🗓️ **2021**
+#### 1.2.3 Generative-Guided Alignment
 
-- 📄 [F$^2$PN](https://ieeexplore.ieee.org/abstract/document/9622181):Future frame prediction network for video anomaly detection, 📰 `TPAMI` [code](https://github.com/StevenLiuWen/ano_pred_cvpr2018)
+🗓️ **2024**
 
-- 📄 [AMMC-Net](https://ojs.aaai.org/index.php/AAAI/article/view/16177):Appearance-motion memory consistency network for video anomaly detection, 📰 `AAAI` [code](https://github.com/NjuHaoZhang/AMMCNet_AAAI2021)
+- 📄 []():, 📰 `` [code]()
 
-🗓️ **2022**
+🗓️ **2025**
 
-- 📄 [STA-Net](https://ieeexplore.ieee.org/abstract/document/9746822):Learning task-specific representation for video anomaly detection with spatialtemporal attention, 📰 `ICASSP`
-
+- 📄 []():, 📰 `` [code]()
+  
 🗓️ **2023**
 
 - 📄 [AMSRC](https://ieeexplore.ieee.org/abstract/document/10097199):A video anomaly detection framework based on appearance-motion semantics representation consistency, 📰 `ICASSP`
