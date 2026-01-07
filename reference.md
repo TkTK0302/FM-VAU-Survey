@@ -84,7 +84,7 @@
 
 - 📄 [DSANet](https://arxiv.org/abs/2511.10334):A multi-grained disentangled alignment network for explicitly isolating normal and abnormal patterns, 📰 `AAAI` [code](https://github.com/lessiYin/DSANet)
 
-- 📄 [RefineVAD](https://arxiv.org/abs/2511.13204):Motion-aware temporal recalibration for preventing anomalous semantic dilution in global features, 📰 `AAAI`
+- 📄 [RefineVAD](https://arxiv.org/abs/2511.13204):Motion-aware temporal recalibration for preventing anomalous semantic dilution in global features, 📰 `AAAI` [code](https://github.com/VisualScienceLab-KHU/RefineVAD)
 
 ### 1.3 Open-Vocabulary Generalization
 
