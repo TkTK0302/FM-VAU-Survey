@@ -161,8 +161,6 @@ Local-Patterns-Generalize-Better/)
 
 - 📄 [AnomalyRuler](https://arxiv.org/abs/2407.10299):Formulating an induction-deduction framework to abstract normal patterns into textual rules for deductive anomaly verification, 📰 `ECCV` [code](https://github.com/Yuchen413/AnomalyRuler)
 
-- 📄 []():, 📰 `` [code]()
-
 🗓️ **2025**
 
 - 📄 [Unified\_Frame\_VAA](https://openreview.net/pdf?id=Qla5PqFL0s):Extending the reasoning pipeline into a holistic chained reasoning process, 📰 `NeurIPS` [code](https://github.com/Rathgrith/URF-ZS-HVAA) [homepage](https://rathgrith.github.io/Unified_Frame_VAA/)
@@ -179,25 +177,35 @@ Local-Patterns-Generalize-Better/)
 
 🗓️ **2024**
 
-- 📄 []():, 📰 `` [code]()
-
-- 📄 []():, 📰 `` [code]()
-
-- 📄 []():, 📰 `` [code]()
-
-- 📄 []():, 📰 `` [code]()
+- 📄 [CUVA](https://openaccess.thecvf.com/content/CVPR2024/html/Du_Uncovering_What_Why_and_How_A_Comprehensive_Benchmark_for_Causation_CVPR_2024_paper.html):A comprehensive causal understanding benchmark evaluating model capacity to decode what-why-how accident causal chains, 📰 `CVPR` [code](https://github.com/fesvhtr/CUVA)
 
 🗓️ **2025**
 
-- 📄 []():, 📰 `` [code]()
+- 📄 [SlowFastVAD](https://arxiv.org/pdf/2504.10320):Incorporating a retrieval-augmented mechanism to provide semantic grounding for decision-making via external knowledge retrieval, 📰 `arXiv` 
 
-- 📄 []():, 📰 `` [code]()
+- 📄 [MoniTor](https://arxiv.org/abs/2510.21449):Introducing a memory-based online scoring queue to anchor current reasoning, 📰 `NeurlPS` [code](https://github.com/YsTvT/MoniTor)
 
-- 📄 []():, 📰 `` [code]()
+- 📄 [PANDA](https://arxiv.org/abs/2509.26386):An agentic AI engineer endowed with self-adaptive strategy planning capabilities, 📰 `NeurIPS` [code](https://github.com/showlab/PANDA)
 
-- 📄 []():, 📰 `` [code]()
+- 📄 [HoloTrace](https://dl.acm.org/doi/10.1145/3746027.3755185):Constructing a bidirectional causal knowledge graph to trace root causes for reasoning why anomalies occur beyond mere identification, 📰 `ACM MM`
   
 #### 2.1.3 Self-Evolving Thinking Process
+
+🗓️ **2025**
+
+- 📄 [Vad-R1](https://arxiv.org/abs/2505.19877):A perception-to-cognition chain-of-thought optimizing hierarchical reasoning structures via reinforcement learning, 📰 `NeurlPS` [code](https://github.com/wbfwonderful/Vad-R1)
+
+- 📄 [VAU-R1](https://arxiv.org/abs/2505.23504):Introducing reinforcement and supervised fine-tuning strategies via rewarding logically rigorous intermediate reasoning processes, 📰 `arXiv` [code](https://github.com/GVCLab/VAU-R1) [homepage](https://q1xiangchen.github.io/VAU-R1/)
+
+- 📄 [VAD-DPO](https://openreview.net/pdf?id=crPlJvwHhS):Applying direct preference optimization for evidence-aligned reasoning to mitigate statistical shortcuts, 📰 `NeurlPS`
+
+🗓️ **2026**
+
+- 📄 [CUEBENCH](https://arxiv.org/abs/2511.00613):A refined semantic benchmark fostering high-level conditional reasoning via context-dependent anomaly distinction, 📰 `AAAI` [code](https://github.com/Mia-YatingYu/Cue-R1)
+
+- 📄 []():, 📰 `` [code]()
+
+- 📄 []():, 📰 `` [code]()
 
 #### 2.1.4 Intrinsic Cognitive Probing
 
