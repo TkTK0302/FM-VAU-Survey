@@ -77,87 +77,25 @@
 
 ## Taxonomy
 
-## 1. Semi-Supervised Video Anomaly Detection
+## 1. Anomaly Perception
 
-### 1.1 Model Input
-
-#### 1.1.1 RGB
-
-**Frame-Level RGB**
-
-🗓️ **2016**
-
-- 📄 [ConvAE](https://openaccess.thecvf.com/content_cvpr_2016/html/Hasan_Learning_Temporal_Regularity_CVPR_2016_paper.html):Learning temporal regularity in video sequences, 📰 `CVPR` [code](https://github.com/mhasa004/caffe) [homepage](https://mhasa004.github.io/regularity.html)
-
-🗓️ **2017**
-
-- 📄 [ConvLSTM-AE](https://ieeexplore.ieee.org/abstract/document/8019325/):Remembering history with convolutional LSTM for anomaly detection, 📰 `ICCV` [code](https://github.com/zachluo/convlstm_anomaly_detection)
-
-- 📄 [STAE](https://dl.acm.org/doi/abs/10.1145/3123266.3123451): Spatio-temporal autoencoder for video anomaly detection, 📰 `ACM MM`
-
-- 📄 [AnomalyGAN](https://ieeexplore.ieee.org/abstract/document/8296547): Abnormal event detection in videos using generative adversarial nets, 📰 `ICIP`
-
-🗓️ **2019**
-
-- 📄 [AMC](https://openaccess.thecvf.com/content_ICCV_2019/html/Nguyen_Anomaly_Detection_in_Video_Sequence_With_Appearance-Motion_Correspondence_ICCV_2019_paper.html): Anomaly detection in video sequence with appearance-motion correspondence, 📰 `ICCV`  [code](https://github.com/nguyetn89/Anomaly_detection_ICCV2019)
-
-**Patch-Level RGB**
-
-🗓️ **2015**
-
-- 📄 [AMDN](https://arxiv.org/abs/1510.01553):Learning deep representations of appearance and motion for anomalous event detection, 📰 `BMVC`
-
-🗓️ **2017**
-
-- 📄 [AMDN2](https://www.sciencedirect.com/science/article/abs/pii/S1077314216301618):Detecting anomalous events in videos by learning deep representations of appearance and motion, 📰 `CVIU`
-
-- 📄 [Deep-cascade](https://ieeexplore.ieee.org/abstract/document/7858798):Deep-cascade: Cascading 3d deep neural networks for fast anomaly detection and localization in crowded scenes, 📰 `TIP`
-
-🗓️ **2018**
-
-- 📄 [S$^2$-VAE](https://ieeexplore.ieee.org/abstract/document/8513816):Generative neural networks for anomaly detection in crowded scenes, 📰 `TIFS`
-
-🗓️ **2019**
-
-- 📄 [DeepOC](https://ieeexplore.ieee.org/abstract/document/8825555):A deep one-class neural network for anomalous event detection in complex scenes, 📰 `TNNLS`
-
-🗓️ **2020**
-
-- 📄 [GM-VAE](https://www.sciencedirect.com/science/article/abs/pii/S1077314218302674):Video anomaly detection and localization via gaussian mixture fully convolutional variational autoencoder, 📰 `CVIU`
-
-**Object-Level RGB**
-
-🗓️ **2017**
-
-- 📄 [FRCN](https://openaccess.thecvf.com/content_iccv_2017/html/Hinami_Joint_Detection_and_ICCV_2017_paper.html):Joint detection and recounting of abnormal events by learning deep generic knowledge, 📰 `ICCV`
-
-🗓️ **2019**
-
-- 📄 [ObjectAE](https://openaccess.thecvf.com/content_CVPR_2019/html/Ionescu_Object-Centric_Auto-Encoders_and_Dummy_Anomalies_for_Abnormal_Event_Detection_in_CVPR_2019_paper.html):Object-centric auto-encoders and dummy anomalies for abnormal event detection in video, 📰 `CVPR` [code](https://github.com/fjchange/object_centric_VAD)
-
-🗓️ **2021**
-
-- 📄 [HF$^2$-VAD](https://openaccess.thecvf.com/content/ICCV2021/html/Liu_A_Hybrid_Video_Anomaly_Detection_Framework_via_Memory-Augmented_Flow_Reconstruction_ICCV_2021_paper):A hybrid video anomaly detection framework via memory-augmented flow reconstruction and flow-guided frame prediction, 📰 `ICCV` [code](https://github.com/LiUzHiAn/hf2vad)
-
-🗓️ **2022**
-
-- 📄 [HSNBM](https://dl.acm.org/doi/abs/10.1145/3503161.3548199):Hierarchical scene normality-binding modeling for anomaly detection in surveillance videos, 📰 `ACM MM` [code](https://github.com/baoqianyue/HSNBM)
-
-- 📄 [BDPN](https://ojs.aaai.org/index.php/AAAI/article/view/19898):Comprehensive regularization in a bi-directional predictive network for video anomaly detection, 📰 `AAAI`
-
-- 📄 [ER-VAD](https://dl.acm.org/doi/abs/10.1145/3503161.3548091):Evidential reasoning for video anomaly detection, 📰 `ACM MM`
+### 1.1 Representation Learning
 
 🗓️ **2023**
 
-- 📄 [HSC](https://openaccess.thecvf.com/content/CVPR2023/html/Sun_Hierarchical_Semantic_Contrast_for_Scene-Aware_Video_Anomaly_Detection_CVPR_2023_paper):Hierarchical semantic contrast for scene-aware video anomaly detection, 📰 `CVPR`[code](https://github.com/shengyangsun/HSC_VAD/)
+- 📄 [CLIP-TSA](https://ieeexplore.ieee.org/abstract/document/10222289):Leveraging ViT-encoded visual features from CLIP in VAD, 📰 `ICIP` [code](https://github.com/joos2010kj/clip-tsa) 
 
-#### 1.1.2 Optical Flow
+### 1.2 Vision-Language Alignment
 
-**Frame Level**
+🗓️ **2024**
 
-🗓️ **2018**
+- 📄 [VadCLIP](https://ojs.aaai.org/index.php/AAAI/article/view/28423):Establishing vision-language alignment for cross-modal semantic matching, 📰 `AAAI` [code](https://github.com/nwpu-zxr/VadCLIP) 
 
-- 📄 [FuturePred](https://openaccess.thecvf.com/content_cvpr_2018/html/Liu_Future_Frame_Prediction_CVPR_2018_paper.html):Future frame prediction for anomaly detection–a new baseline, 📰 `CVPR`  [code](https://github.com/StevenLiuWen/ano_)
+#### 1.2.1 Semantic Prompt Engineering
+
+🗓️ **2025**
+
+- 📄 [PromptVAD](https://ieeexplore.ieee.org/document/11222791):Utilizing learnable abnormal prompts, 📰 `TNNLS`
 
 🗓️ **2020**
 
