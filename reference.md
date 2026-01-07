@@ -98,8 +98,6 @@
 - 📄 [MDFL](https://ieeexplore.ieee.org/document/10657732):Incorporating abnormal-aware prompts for dynamic feature-semantic fusion, 📰 `CVPR` [code](https://github.com/Junxi-Chen/PE-MIL)
 
 - 📄 [TPWNG](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Text_Prompt_with_Normality_Guidance_for_Weakly_Supervised_Video_Anomaly_CVPR_2024_paper.html):Establishing bidirectional semantic constraints via normality guidance for suppressing alignment fluctuations, 📰 `CVPR`
-  
-- 📄 [Fed-WSVAD](https://ojs.aaai.org/index.php/AAAI/article/view/35398):Fusing global-local features via a text prompt generator for adaptive semantic focus adjustment, 📰 `AAAI` [code](https://github.com/wbfwonderful/Fed-WSVAD)
 
 - 📄 [STPrompt](https://dl.acm.org/doi/abs/10.1145/3664647.3681442):A dual-stream spatio-temporal prompt framework for region-level anomaly localization and background suppression, 📰 `ACM MM`
 
@@ -109,6 +107,8 @@
 
 - 📄 [MISSIONGNN](https://openaccess.thecvf.com/content/WACV2025/html/Yun_MissionGNN_Hierarchical_Multimodal_GNN-Based_Weakly_Supervised_Video_Anomaly_Recognition_with_WACV_2025_paper.html):, 📰 `WACV` [code](https://github.com/c0510gy/MissionGNN)
 
+- 📄 [Fed-WSVAD](https://ojs.aaai.org/index.php/AAAI/article/view/35398):Fusing global-local features via a text prompt generator for adaptive semantic focus adjustment, 📰 `AAAI` [code](https://github.com/wbfwonderful/Fed-WSVAD)
+  
 - 📄 [LEC-VAD](https://openreview.net/forum?id=JaNKGPkDpw):A memory-bank prototype learning mechanism to enrich sparse anomaly semantic labels, 📰 `ICML`
 
 #### 1.2.2 Latent Space Optimization
