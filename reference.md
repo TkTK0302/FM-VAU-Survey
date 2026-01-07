@@ -1,7 +1,7 @@
 ## 📖 Table of contents
 
 - [Our Taxonomy](#taxonomy)
-  - [1. Anomaly Perception)
+  - [1. Anomaly Perception](#2-Anomaly-Perception)
     - [1.1 Representation Learning](#11-Representation-Learning)
     - [1.2 Vision-Language Alignment](#12-Vision-Language-Alignment)
       - [1.2.1 Semantic Prompt Engineering](#121-Semantic-Prompt-Engineering)
