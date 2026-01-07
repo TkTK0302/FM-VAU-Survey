@@ -28,7 +28,7 @@
 
 - 📄 [CLIP-TSA](https://ieeexplore.ieee.org/abstract/document/10222289):Leveraging ViT-encoded visual features from CLIP in VAD, 📰 `ICIP` [code](https://github.com/joos2010kj/clip-tsa)
 
-- 📄 [UMIL](https://openaccess.thecvf.com/content/CVPR2023/papers/Lv_Unbiased_Multiple_Instance_Learning_for_Weakly_Supervised_Video_Anomaly_Detection_CVPR_2023_paper.pdf):Leveraging ViT-encoded visual features from CLIP in VAD, 📰 `CVPR`  [code](https://github.com/ktr-hubrt/UMIL)
+- 📄 [UMIL](https://openaccess.thecvf.com/content/CVPR2023/papers/Lv_Unbiased_Multiple_Instance_Learning_for_Weakly_Supervised_Video_Anomaly_Detection_CVPR_2023_paper.pdf):Incorporating an uncertainty estimation mechanism to suppress ambiguous background noise for action instance discrimination, 📰 `CVPR`  [code](https://github.com/ktr-hubrt/UMIL)
 
 🗓️ **2024**
 
