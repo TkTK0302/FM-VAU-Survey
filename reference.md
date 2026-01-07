@@ -186,7 +186,7 @@
 
 - 📄 [ITC](https://ieeexplore.ieee.org/document/10719608):Generating diverse textual cues across anomaly categories as supplementary semantic context, 📰 `TIP`
 
-- 📄 [HAWK]([https://arxiv.org/abs/2405.16886](https://proceedings.neurips.cc/paper_files/paper/2024/hash/fca83589e85cb061631b7ebc5db5d6bd-Abstract-Conference.html)):Adopting an interactive generative paradigm to structure anomaly understanding via multi-turn dialogues, 📰 `NeurIPS` [code](https://github.com/jqtangust/hawk)
+- 📄 [HAWK](https://proceedings.neurips.cc/paper_files/paper/2024/hash/fca83589e85cb061631b7ebc5db5d6bd-Abstract-Conference.html):Adopting an interactive generative paradigm to structure anomaly understanding via multi-turn dialogues, 📰 `NeurIPS` [code](https://github.com/jqtangust/hawk)
 
 🗓️ **2025**
 
