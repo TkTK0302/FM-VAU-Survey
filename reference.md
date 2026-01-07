@@ -1,80 +1,23 @@
 ## 📖 Table of contents
 
-- [Existing Reviews](#reviews)
 - [Our Taxonomy](#taxonomy)
-  - [1. Semi-Supervised Video Anomaly Detection](#1-Semi-Supervised-Video-Anomaly-Detection)
-    - [1.1 Model Input](#11-Model-Input)
-      - [1.1.1 RGB](#111-RGB)
-      - [1.1.2 Optical Flow](#112-Optical-Flow)
-      - [1.1.3 Skeleton](#113-Skeleton)
-      - [1.1.4 Hybrid](#114-Hybrid)
-    - [1.2 Methodology](#12-Methodology)
-      - [1.2.1 Self-Supervised Learning](#121-Self-Supervised-Learning)
-      - [1.2.2 One-Class Learning](#122-One-Class-Learning)
-      - [1.2.3 Interpretable Learning](#123-Interpretable-Learning)
-    - [1.3 Network Architecture](#13-Network-Architecture)
-      - [1.3.1 Auto-Encoder](#131-Auto-Encoder)
-      - [1.3.2 GAN](#132-GAN)
-      - [1.3.3 Diffusion](#133-Diffusion)
-    - [1.4 Model Refinement](#14-Model-Refinement)
-      - [1.4.1 Pseudo Anomalies](#141-Pseudo-Anomalies)
-      - [1.4.2 Memory Bank](#142-Memory-Bank)
-    - [1.5 Model Output](#15-Model-Output)
-      - [1.5.1 Frame Level Detection](#151-Frame-Level-Detection)
-      - [1.5.2 Pixel Level Detection](#152-Pixel-Level-Detection)
-      - [1.5.3 Sentence-Level Description](#153-Sentence-Level-Description)
-  - [2. Weakly Supervised Video Anomaly Detection](#2-weakly-supervised-video-anomaly-detection)
-    - [2.1 Model Input](#21-Model-Input)
-      - [2.1.1 RGB](#211-RGB)
-      - [2.1.2 Optical Flow](#212-Optical-Flow)
-      - [2.1.3 Audio](#213-Audio)
-      - [2.1.4 Text](#214-Text)
-      - [2.1.5 Hybrid](#215-Hybrid)
-    - [2.2 Methodology](#22-methodology)
-      - [2.2.1 One-Stage MIL](#221-One-Stage-MIL)
-      - [2.2.2 Two-Stage Self-Training](#222-Two-Stage-Self-Training)
-      - [2.2.3 VLM-based Interpretable Learning](#223-VLM-based-Interpretable-Learning)
-    - [2.3 Refinement Strategy](#23-Refinement-Strategy)
-      - [2.3.1 Temporal Modeling](#231-Temporal-Modeling)
-      - [2.3.2 Spatio-Temporal Modeling](#232-Spatio-Temporal-Modeling)
-      - [2.3.3 MIL-Based Refinement](#233-MIL-Based-Refinement)
-      - [2.3.4 Feature Metric Learning](#234-Feature-Metric-Learning)
-      - [2.3.5 Knowledge Distillation](#235-Knowledge-Distillation)
-      - [2.3.6 Leveraging Large Models](#236-Leveraging-Large-Models)
-    - [2.4 Model Output](#24-Model-Output)
-      - [2.4.1 Frame Level Detection](#241-Frame-Level-Detection)
-      - [2.4.2 Pixel Level Detection](#242-Pixel-Level-Detection)
-      - [2.4.3 Sentence-Level Description](#243-Sentence-Level-Description)
-  - [3. Fully Supervised Video Anomaly Detection](#3-Fully-Supervised-Video-Anomaly-Detection)
-    - [3.1 Appearance Input](#31-Appearance-Input)
-    - [3.2 Motion Input](#32-Motion-Input)
-    - [3.3 Skeleton Input](#33-Skeleton-Input)
-    - [3.4 Audio Input](#34-Audio-Input)
-    - [3.5 Hybrid Input](#35-Hybrid-Input)
-  - [4. Unsupervised Video Anomaly Detection](#4-Unsupervised-Video-Anomaly-Detection)
-    - [4.1 Pseudo Label Based Paradigm](#41-Pseudo-Label-Based-Paradigm)
-    - [4.2 Change Detection Based Paradigm](#42-Change-Detection-Based-Paradigm)
-    - [4.3 Others](#43-Others)
-  - [5. Open-Set Supervised Video Anomaly Detection](#5-Open-Set-Supervised-Video-Anomaly-Detection)
-    - [5.1 Open-Set VAD](#51-Open-Set-VAD)
-    - [5.2 Few-Shot VAD](#52-Few-Shot-VAD)
-- [Performance Comparison](#performance-comparison)
-- [Citation](#citation)
-
-## Reviews
-
-| Reference                                                                           | Year | Venue               | Main Focus                                 | Main Categorization                                              | UVAD | WVAD | SVAD | FVAD | OVAD | LVAD | IVAD |
-|:----------------------------------------------------------------------------------- |:----:|:-------------------:|:------------------------------------------:|:----------------------------------------------------------------:|:----:|:----:|:----:|:----:|:----:|:----:| ---- |
-| [Ramachandra et al.](https://ieeexplore.ieee.org/abstract/document/9271895)         | 2020 | IEEE TPAMI          | Semi-supervised single-scene VAD           | Methodology                                                      | ×    | ×    | √    | ×    | ×    | ×    | ×    |
-| [Santhosh et al.](https://dl.acm.org/doi/abs/10.1145/3417989)                       | 2020 | ACM CSUR            | VAD applied on road traffic                | Methodology                                                      | √    | ×    | √    | √    | ×    | ×    | ×    |
-| [Nayak et al.](https://www.sciencedirect.com/science/article/pii/S0262885620302109) | 2021 | IMAVIS              | Deep learning driven semi-supervised VAD   | Methodology                                                      | ×    | ×    | √    | ×    | ×    | ×    | ×    |
-| [Tran et al.](https://dl.acm.org/doi/abs/10.1145/3544014)                           | 2022 | ACM CSUR            | Semi&weakly supervised VAD                 | Architecture                                                     | ×    | ×    | √    | ×    | ×    | ×    | ×    |
-| [Chandrakala et al.](https://link.springer.com/article/10.1007/s10462-022-10258-6)  | 2023 | Artif. Intell. Rev. | Deep model-based one&two-class VAD         | Methodology&Architecture                                         | ×    | √    | √    | √    | ×    | ×    | ×    |
-| [Liu et al.](https://dl.acm.org/doi/abs/10.1145/3645101)                            | 2023 | ACM CSUR            | Deep models for semi&weakly supervised VAD | Model Input                                                      | √    | √    | √    | √    | ×    | ×    | ×    |
-| Our survey                                                                          | 2024 | -                   | Comprehensive VAD taxonomy and deep models | Methodology, Architecture, Refinement, Model Input, Model Output | √    | √    | √    | √    | √    | √    | √    |
-
-*UVAD=Unsupervised VAD, WVAD=Weakly supervised VAD, SVAD=Semi-supervised VAD, FVAD=Fully supervised VAD, OVAD=Open-set supervised VAD, LVAD: Large-model based VAD, IVAD: Interpretable VAD*
-
+  - [1. Anomaly Perception)
+    - [1.1 Representation Learning](#11-Representation-Learning)
+    - [1.2 Vision-Language Alignment](#12-Vision-Language-Alignment)
+      - [1.2.1 Semantic Prompt Engineering](#121-Semantic-Prompt-Engineering)
+      - [1.2.2 Latent Space Optimization](#122-Latent-Space-Optimization)
+    - [1.3 Open-Vocabulary Generalization](#13-Open-Vocabulary-Generalization)
+  - [2. Anomaly Cognition](#2-Anomaly-Cognition)
+    - [2.1 Logical Reasoning](#21-Logical-Reasoning)
+      - [2.1.1 Explicit Decompositional Reasoning](#211-Explicit-Decompositional-Reasoning)
+      - [2.1.2 External Knowledge Expansion](#212-External-Knowledge-Expansion)
+      - [2.1.3 Self-Evolving Thinking Process](#213-Self-Evolving-Thinking-Process)
+      - [2.1.4 Intrinsic Cognitive Probing](#214-Intrinsic-Cognitive-Probing)
+    - [2.2 Content Generation](#22-Content-Generation)
+      - [2.2.1 Cognitive Visual Synthesis](#221-Cognitive-Visual-Synthesis)
+      - [2.2.2 Holistic Narrative Externalization](#222-Holistic-Narrative-Externalization)
+      - [2.2.3 Generative Optimization Guidance](#223-Generative-Optimization-Guidance)
+  
 ## Taxonomy
 
 ## 1. Anomaly Perception
@@ -128,14 +71,6 @@
 - 📄 [AnomalyCLIP](https://www.sciencedirect.com/science/article/pii/S1077314224002443):Normal subspace identification for establishing explicit decision boundaries in anomaly detection, 📰 `CVIU` [code](https://lucazanella.github.io/AnomalyCLIP/)
 - 📄 [TSTD](https://dl.acm.org/doi/10.1145/3664647.3680934):Explicit foreground-background separation for masking complex background interference, 📰 `ACM MM` [code](https://github.com/shengyangsun/TDSD)
 
-🗓️ **2026**
-
-- 📄 [DSANet](https://arxiv.org/abs/2511.10334):A multi-grained disentangled alignment network for explicitly isolating normal and abnormal patterns, 📰 `AAAI` [code](https://github.com/lessiYin/DSANet)
-
-- 📄 [RefineVAD](https://arxiv.org/abs/2511.13204):Motion-aware temporal recalibration for preventing anomalous semantic dilution in global features, 📰 `AAAI`
-  
-#### 1.2.3 Generative-Guided Alignment
-
 🗓️ **2025**
   
 - 📄 [LocalVAD](https://proceedings.iclr.cc/paper_files/paper/2025/hash/7ce1cbededb4b0d6202847ac1b484ee8-Abstract-Conference.html):Matching semantic components with textual sub-concepts for resolving critical scene-dependency, 📰 `ICLR` [code](https://github.com/AllenYLJiang/
@@ -144,6 +79,12 @@ Local-Patterns-Generalize-Better/)
 - 📄 [CMHKF](https://aclanthology.org/2025.acl-long.1524/):Incorporating auditory information for feature compensation to tackle visual occlusions, 📰 `ACL` [code](https://github.com/ssp-seven/CMHKF)
  
 - 📄 [AVadCLIP](https://arxiv.org/abs/2504.04495):Developing a collaboration mechanism to enforce temporal correlations for suppressing false alarms, 📰 `arXiv`
+
+🗓️ **2026**
+
+- 📄 [DSANet](https://arxiv.org/abs/2511.10334):A multi-grained disentangled alignment network for explicitly isolating normal and abnormal patterns, 📰 `AAAI` [code](https://github.com/lessiYin/DSANet)
+
+- 📄 [RefineVAD](https://arxiv.org/abs/2511.13204):Motion-aware temporal recalibration for preventing anomalous semantic dilution in global features, 📰 `AAAI`
 
 ### 1.3 Open-Vocabulary Generalization
 
