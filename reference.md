@@ -28,11 +28,11 @@
 
 - 📄 [CLIP-TSA](https://ieeexplore.ieee.org/abstract/document/10222289):Leveraging ViT-encoded visual features from CLIP in VAD, 📰 `ICIP` [code](https://github.com/joos2010kj/clip-tsa)
 
-- 📄 [UMIL](https://openaccess.thecvf.com/content/CVPR2023/papers/Lv_Unbiased_Multiple_Instance_Learning_for_Weakly_Supervised_Video_Anomaly_Detection_CVPR_2023_paper.pdf):Leveraging ViT-encoded visual features from CLIP in VAD, 📰 `CVPR` [code](https://github.com/ktr-hubrt/UMIL)
+- 📄 [UMIL](https://openaccess.thecvf.com/content/CVPR2023/papers/Lv_Unbiased_Multiple_Instance_Learning_for_Weakly_Supervised_Video_Anomaly_Detection_CVPR_2023_paper.pdf):Leveraging ViT-encoded visual features from CLIP in VAD, 📰 `CVPR`  [code](https://github.com/ktr-hubrt/UMIL)
 
 🗓️ **2024**
 
-- 📄 [VadCLIP](https://ojs.aaai.org/index.php/AAAI/article/view/28423):Designing a local-global temporal Adapter to infuse multi-range temporal information into static pre-trained models, 📰 `AAAI` [code](https://github.com/nwpu-zxr/VadCLIP)
+- 📄 [VadCLIP](https://ojs.aaai.org/index.php/AAAI/article/view/28423):Designing a local-global temporal Adapter to infuse multi-range temporal information into static pre-trained models, 📰 `AAAI`  [code](https://github.com/nwpu-zxr/VadCLIP)
 
 - 📄 [IFS-VAD](https://ieeexplore.ieee.org/document/10720820):Integrating parallel multi-scale temporal MLP branches with distinct receptive fields, 📰 `TCSVT` [code](https://github.com/Ria5331/IFS-VAD)
 
@@ -73,8 +73,7 @@
 
 🗓️ **2025**
   
-- 📄 [LocalVAD](https://proceedings.iclr.cc/paper_files/paper/2025/hash/7ce1cbededb4b0d6202847ac1b484ee8-Abstract-Conference.html):Matching semantic components with textual sub-concepts for resolving critical scene-dependency, 📰 `ICLR` [code](https://github.com/AllenYLJiang/
-Local-Patterns-Generalize-Better/)
+- 📄 [LocalVAD](https://proceedings.iclr.cc/paper_files/paper/2025/hash/7ce1cbededb4b0d6202847ac1b484ee8-Abstract-Conference.html):Matching semantic components with textual sub-concepts for resolving critical scene-dependency, 📰 `ICLR` [code](https://github.com/AllenYLJiang/Local-Patterns-Generalize-Better/)
 
 - 📄 [CMHKF](https://aclanthology.org/2025.acl-long.1524/):Incorporating auditory information for feature compensation to tackle visual occlusions, 📰 `ACL` [code](https://github.com/ssp-seven/CMHKF)
  
