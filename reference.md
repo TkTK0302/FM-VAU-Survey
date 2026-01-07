@@ -68,7 +68,8 @@
 
 🗓️ **2024**
 
-- 📄 [AnomalyCLIP](https://www.sciencedirect.com/science/article/pii/S1077314224002443):Normal subspace identification for establishing explicit decision boundaries in anomaly detection, 📰 `CVIU` [code](https://lucazanella.github.io/AnomalyCLIP/)
+- 📄 [AnomalyCLIP](https://www.sciencedirect.com/science/article/pii/S1077314224002443):Normal subspace identification for establishing explicit decision boundaries in anomaly detection, 📰 `CVIU` [code](https://github.com/lucazanella/AnomalyCLIP) [homepage](https://lucazanella.github.io/AnomalyCLIP/)
+
 - 📄 [TSTD](https://dl.acm.org/doi/10.1145/3664647.3680934):Explicit foreground-background separation for masking complex background interference, 📰 `ACM MM` [code](https://github.com/shengyangsun/TDSD)
 
 🗓️ **2025**
