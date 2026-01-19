@@ -84,10 +84,6 @@ a vision-language alignment paradigm for anomaly perception by jointly leveragin
 
 - 📄 [MEL-OWVAD](https://ieeexplore.ieee.org/abstract/document/10948323):Presenting an evidential deep learning framework, modeling uncertainty via a Dirichlet distribution, 📰 `TMM`
 
-🗓️ **2024**
-
-- 📄 [MDFL](https://ieeexplore.ieee.org/document/10657732):Incorporating abnormal-aware prompts for dynamic feature-semantic fusion, 📰 `CVPR` [code](https://github.com/Junxi-Chen/PE-MIL)
-
 ## 2. Anomaly Cognition
 
 ### 2.1 Logical Reasoning
