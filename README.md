@@ -23,7 +23,6 @@ If you find this project useful in your research, please consider citing:
 @inproceedings{su2026fm-vau,
   title={A Survey on Foundation Model-Driven Video Anomaly Understanding},
   author={Su, Wanshun and Tang, Ke and Wu, Peng and Yan, Qingsen and Pang, Guansong},
-  booktitle={IJCAI},
   year={2026}
 }
 ```
