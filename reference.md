@@ -183,4 +183,4 @@ a vision-language alignment paradigm for anomaly perception by jointly leveragin
 - 📄 [Vad-R1](https://arxiv.org/abs/2505.19877):Introducing earlier, leverage foundation model-generated texts refined by experts as supervision to fine-tune the policy model, 📰 `NeurlPS` [code](https://github.com/wbfwonderful/Vad-R1)
   
 
-- 📄 [CUEBENCH](https://arxiv.org/abs/2511.00613): refined semantic benchmark fostering high-level conditional reasoning via context-dependent anomaly distinction, 📰 `AAAI` [code](https://github.com/Mia-YatingYu
+- 📄 [CUEBENCH](https://arxiv.org/abs/2511.00613): refined semantic benchmark fostering high-level conditional reasoning via context-dependent anomaly distinction, 📰 `AAAI` [code]([https://github.com/Mia-YatingYu](https://github.com/Mia-YatingYu/Cue-R1))
