@@ -9,12 +9,12 @@
     - [2.1 Logical Reasoning](#21-Logical-Reasoning)
       - [2.1.1 Explicit Decompositional Reasoning](#211-Explicit-Decompositional-Reasoning)
       - [2.1.2 External Knowledge Expansion](#212-External-Knowledge-Expansion)
-      - [2.1.3 Self-Evolving Thinking Process](#213-Self-Evolving-Thinking-Process)
+      - [2.1.3 Dynamic Reinforcement Tuning](#213-Dynamic-Reinforcement-Tuning)
     - [2.2 Assistive Generation](#22-Content-Generation)
       - [2.2.1 Visual Sample Synthesis](#221-Cognitive-Visual-Synthesis)
       - [2.2.2 Holistic Narrative Externalization](#222-Holistic-Narrative-Externalization)
       - [2.2.3 Generative Optimization Guidance](#223-Generative-Optimization-Guidance)
-  
+
 ## Taxonomy
 
 ## 1. Anomaly Perception
@@ -25,7 +25,7 @@
 
 - 📄 [CLIP-TSA](https://ieeexplore.ieee.org/abstract/document/10222289):Introducing temporal self-attention on CLIP embeddings, 📰 `ICIP` [code](https://github.com/joos2010kj/clip-tsa)
 
-- 📄 [UMIL](https://openaccess.thecvf.com/content/CVPR2023/papers/Lv_Unbiased_Multiple_Instance_Learning_for_Weakly_Supervised_Video_Anomaly_Detection_CVPR_2023_paper.pdf):Mitigating background redundancy through uncertainty estimation, 📰 `CVPR`  [code](https://github.com/ktr-hubrt/UMIL)
+- 📄 [UMIL](https://openaccess.thecvf.com/content/CVPR2023/papers/Lv_Unbiased_Multiple_Instance_Learning_for_Weakly_Supervised_Video_Anomaly_Detection_CVPR_2023_paper.pdf):Mitigating background redundancy through uncertainty estimation, 📰 `CVPR` [code](https://github.com/ktr-hubrt/UMIL)
 
 🗓️ **2024**
 
@@ -36,7 +36,7 @@
 🗓️ **2024**
 
 - 📄 [VadCLIP](https://ojs.aaai.org/index.php/AAAI/article/view/28423):Establishing
-a vision-language alignment paradigm for anomaly perception by jointly leveraging textual prompts and dual-branch alignment, 📰 `AAAI` [code](https://github.com/nwpu-zxr/VadCLIP) 
+  a vision-language alignment paradigm for anomaly perception by jointly leveraging textual prompts and dual-branch alignment, 📰 `AAAI` [code](https://github.com/nwpu-zxr/VadCLIP)
 
 - 📄 [TPWNG](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Text_Prompt_with_Normality_Guidance_for_Weakly_Supervised_Video_Anomaly_CVPR_2024_paper.html):Introducing normality-guided prompts and bidirectional semantic constraints, 📰 `CVPR`
 
@@ -44,10 +44,10 @@ a vision-language alignment paradigm for anomaly perception by jointly leveragin
 
 - 📄 [STPrompt](https://dl.acm.org/doi/abs/10.1145/3664647.3681442):Incorporating spatio-temporal prompts, 📰 `ACM MM`
 
-- 📄 [AnomalyCLIP](https://www.sciencedirect.com/science/article/pii/S1077314224002443):Identifying the normal event subspace and learning text-driven  for abnormal events, 📰 `CVIU` [code](https://github.com/lucazanella/AnomalyCLIP) [homepage](https://lucazanella.github.io/AnomalyCLIP/)
+- 📄 [AnomalyCLIP](https://www.sciencedirect.com/science/article/pii/S1077314224002443):Identifying the normal event subspace and learning text-driven for abnormal events, 📰 `CVIU` [code](https://github.com/lucazanella/AnomalyCLIP) [homepage](https://lucazanella.github.io/AnomalyCLIP/)
 
 - 📄 [TSTD](https://dl.acm.org/doi/10.1145/3664647.3680934):Explicitly modeling scene semantics to disentangle foreground actions from scene context, 📰 `ACM MM` [code](https://github.com/shengyangsun/TDSD)
-  
+
 🗓️ **2025**
 
 - 📄 [PromptVAD](https://ieeexplore.ieee.org/document/11222791):Modeling anomaly-related semantics through learnable prompts and category-aware textual cues, 📰 `TNNLS`
@@ -79,7 +79,7 @@ a vision-language alignment paradigm for anomaly perception by jointly leveragin
 🗓️ **2025**
 
 - 📄 [Anomize](https://openaccess.thecvf.com/content/CVPR2025/html/Li_Anomize_Better_Open_Vocabulary_Video_Anomaly_Detection_CVPR_2025_paper.html):Introducing a multi-level matching mechanism, integrating dynamic action descriptions with static scene features, 📰 `CVPR`
- 
+
 - 📄 [PLOVAD](https://ieeexplore.ieee.org/abstract/document/10836858):Devising a dual prompt tuning mechanism that integrates domain-specific learnable vectors with LLM-generated fine-grained semantics, 📰 `TCSVT` [code](https://github.com/ctX-u/PLOVAD)
 
 - 📄 [MEL-OWVAD](https://ieeexplore.ieee.org/abstract/document/10948323):Presenting an evidential deep learning framework, modeling uncertainty via a Dirichlet distribution, 📰 `TMM`
@@ -96,7 +96,7 @@ a vision-language alignment paradigm for anomaly perception by jointly leveragin
 
 🗓️ **2025**
 
-- 📄 [Unified\_Frame\_VAA](https://openreview.net/pdf?id=Qla5PqFL0s):Organizing anomaly understanding into a unified reasoning pipeline that sequentially performs detection, localization, and explanation, 📰 `NeurIPS` [code](https://github.com/Rathgrith/URF-ZS-HVAA) [homepage](https://rathgrith.github.io/Unified_Frame_VAA/)
+- 📄 [Unified_Frame_VAA](https://openreview.net/pdf?id=Qla5PqFL0s):Organizing anomaly understanding into a unified reasoning pipeline that sequentially performs detection, localization, and explanation, 📰 `NeurIPS` [code](https://github.com/Rathgrith/URF-ZS-HVAA) [homepage](https://rathgrith.github.io/Unified_Frame_VAA/)
 
 - 📄 [EventVAD](https://dl.acm.org/doi/abs/10.1145/3746027.3754500):Decomposing continuous video streams into discrete event units, 📰 `ACM MM` [code](https://github.com/YihuaJerry/EventVAD)
 
@@ -120,7 +120,7 @@ a vision-language alignment paradigm for anomaly perception by jointly leveragin
 
 🗓️ **2025**
 
-- 📄 [SlowFastVAD](https://arxiv.org/pdf/2504.10320):Leveraging retrieval-augmented generation (RAG) to guide anomaly decisions, enabling models to reason with explicit normality descriptions, 📰 `arXiv` 
+- 📄 [SlowFastVAD](https://arxiv.org/pdf/2504.10320):Leveraging retrieval-augmented generation (RAG) to guide anomaly decisions, enabling models to reason with explicit normality descriptions, 📰 `arXiv`
 
 - 📄 [MoniTor](https://arxiv.org/abs/2510.21449):Maintaining a memory-based scoring mechanism that anchors current predictions to historical context, 📰 `NeurlPS` [code](https://github.com/YsTvT/MoniTor)
 
@@ -132,7 +132,7 @@ a vision-language alignment paradigm for anomaly perception by jointly leveragin
 
 - 📄 [TargetVAU]:Incorporating explicit spatio-temporal relations to support interpretable anomaly reasoning, 📰 `AAAI`
 
-#### 2.1.3 Self-Evolving Thinking Process
+#### 2.1.3 Dynamic Reinforcement Tuning
 
 🗓️ **2025**
 
@@ -181,6 +181,5 @@ a vision-language alignment paradigm for anomaly perception by jointly leveragin
 - 📄 [Holmes-VAU](https://openaccess.thecvf.com/content/CVPR2025/html/Zhang_Holmes-VAU_Towards_Long-term_Video_Anomaly_Understanding_at_Any_Granularity_CVPR_2025_paper.html):Employing foundation models to generate narrative descriptions at the clip, event, and video levels, which are subsequently inspected and refined by experts to construct hierarchical instruction data, 📰 `CVPR` [code](https://github.com/pipixin321/HolmesVAU)
 
 - 📄 [Vad-R1](https://arxiv.org/abs/2505.19877):Introducing earlier, leverage foundation model-generated texts refined by experts as supervision to fine-tune the policy model, 📰 `NeurlPS` [code](https://github.com/wbfwonderful/Vad-R1)
-  
 
 - 📄 [CUEBENCH](https://arxiv.org/abs/2511.00613): refined semantic benchmark fostering high-level conditional reasoning via context-dependent anomaly distinction, 📰 `AAAI` [code](https://github.com/Mia-YatingYu/Cue-R1)
